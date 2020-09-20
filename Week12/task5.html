@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<input type="text" id="myInput">
+    <button type="button" onclick="getInputValue();">Value
+    </button>
+    <script type="text/javascript">
+        function getInputValue()
+        {
+            // Selecting the input element and get its value 
+            var inputVal = document.getElementById("myInput").value;
+            if (isNaN(inputVal)==false)
+            	{
+            		alert("Is a number")
+            	}
+            else
+            	{
+            		alert("Not a number")
+            	}
+       }
+    </script>
+<br>
+<br>
+   <script type="text/javascript">
+        var check = function() {
+  		if (document.getElementById('password').value ==
+    		document.getElementById('confirm_password').value) {
+    		document.getElementById('message').style.color = 'green';
+    		document.getElementById('message').innerHTML = 'Password is a match';
+  		} 
+  		else {
+    		document.getElementById('message').style.color = 'red';
+    		document.getElementById('message').innerHTML = 'Password doesnt match ';
+  		}
+}
+    </script>
+<label>password :
+    <input name="password" id="password" type="password" onkeyup='check();' />
+</label>
+<br>
+<br>
+<label>confirm password:
+    <input type="password" name="confirm_password" id="confirm_password"  onkeyup='check();' /> 
+    <span id='message'></span>
+</label>
+</body>
+</html>

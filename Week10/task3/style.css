@@ -1,0 +1,196 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+	width: 900px;
+	position: relative;
+	left: 180px;
+}
+#main
+{
+	background-color: white;
+	height: 900px;
+	width: 900px;
+	position: relative;
+
+}
+
+#logo
+{
+	border:1px solid black;
+	width: 250px;
+	height:80px;
+	display: inline-block;
+}
+
+
+#menubar
+{
+	width: 390px;
+	position: absolute;
+	top: 10px;
+	left: 500px;
+	box-shadow: 5px 10px;
+}
+ul
+{
+	list-style: none;
+}
+
+li
+{
+	display: inline-block;
+	margin: 3px;
+	border: 1px solid black;
+}
+
+#text
+{
+	position: absolute;
+	left: 90px;
+	top: 30px;
+
+}
+
+#top-box
+{
+	width:900px;
+	height:120px;
+	border: 1px solid black;
+	background-color: skyblue;
+}
+
+#middle-box
+{
+	height:600px;
+	width: 900px;
+	border: 1px solid black;
+	background-color: yellow;
+}
+#bottom-text
+{
+	width: 400px;
+	position: relative;
+	left: 600px;
+}
+
+.box
+{
+
+	height: 200px;
+	width: 300px;
+	background-color: grey;
+	position: absolute;
+	top:200px;
+	left: 100px;
+}
+
+#box2
+{
+	position: absolute;
+	left: 480px;
+
+}
+
+#box3
+{
+	position: absolute;
+	top:450px;
+
+}
+
+#box4
+{
+	position: absolute;
+	left: 480px;
+	top:450px;
+}
+
+.logo_box
+{
+	position: absolute;
+	top: 0px;
+	height: 100px;
+	width: 100px;
+	border: 0.5px solid black;
+	background-color: white;
+}
+
+#text_inside_box
+{
+	width: 150px;
+	height: 200px;
+	position: relative;
+	left:130px;
+	overflow: hidden;
+}
+
+#footer-box
+{
+	position: absolute;
+	width: 900px;
+	height:200px;
+	border: 1px solid black;
+}
+
+#left-footer-box
+{
+	position: absolute;
+	height: 200px;
+	width: 33.33%;
+	background-color: blue;
+	overflow: hidden;
+}
+
+#middle-footer-box
+{
+	position: absolute;
+	left: 33.33%;
+	height: 200px;
+	width: 33.33%;
+	background-color: green;
+}
+
+#right-footer-box
+{
+	position: absolute;
+	left: 66.66%;
+	height: 200px;
+	width: 33.33%;
+	background-color: red;
+	
+}
+
+.footer-text-content
+{
+	position: absolute;
+	left: 33.33%;
+	height: 200px;
+	width: 60.33%;
+	background-color:pink;
+
+}
+
+#lastbox
+{
+	position: absolute;
+	left: -100px;
+	top: 30px;
+	height: 100px;
+	width: 80px;
+	border: 1px solid black;
+	background-color: white;
+}
+
+#footerline
+{
+	position: relative;
+	top: 200px;
+	width:900px;
+	height: 20px;
+	background-color: grey;
+	border: 1px solid black;
+}

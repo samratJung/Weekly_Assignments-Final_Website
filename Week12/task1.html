@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Question1</title>
+	</script>
+</head>
+<body>
+	<script type="text/javascript"> 
+  		var myDate = new Date(); 
+        var myDay = myDate.getDay(); 
+        var myyear = myDate.getFullYear();
+        var mymonth = myDate.getMonth();
+        document.write(myyear + "-" + mymonth + "-" + myDay ); 
+        document.write("  "); 
+        
+        // get hour value. 
+        var hours = myDate.getHours(); 
+        hours = hours % 12; 
+        hours = hours ? hours : 12; 
+        var minutes = myDate.getMinutes(); 
+        minutes = minutes < 10 ? '0' + minutes : minutes; 
+        var myTime = hours + ":" + minutes + ":" + myDate.getSeconds(); 
+        document.write( myTime);
+    </script> 
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task2</title>
+</head>
+<body>
+<script type="text/javascript">
+  function changeTxt(t,o){
+    var o = document.getElementById(o);
+   o.innerHTML = t;
+   o.style.color = "#A26";
+  }
+</script>
+<div onclick="changeTxt('NEW color text.','HeadingID');">
+<h1 id="HeadingID">OLD color text.</h1>
+<script type="text/javascript"> 
+  		function DateOutput(){
+  		var myDate = new Date(); 
+        var myDay = myDate.getDay(); 
+        var myyear = myDate.getFullYear();
+        var mymonth = myDate.getMonth();
+        var hours = myDate.getHours(); 
+        hours = hours % 12; 
+        hours = hours ? hours : 12; 
+        var minutes = myDate.getMinutes(); 
+        minutes = minutes < 10 ? '0' + minutes : minutes; 
+        var myTime = hours + ":" + minutes + ":" + myDate.getSeconds(); 
+        alert(myyear + "-" + mymonth + "-" + myDay + " " + myTime);}
+    </script>
+<button onclick="DateOutput()">Click to see Date</button>
+</div>
+</body>
+</html>

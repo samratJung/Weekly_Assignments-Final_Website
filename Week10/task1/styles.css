@@ -1,0 +1,96 @@
+.blue1{
+	width:100px;
+	height: 203px;
+	background-color: skyblue;
+    border-style: none; 
+    position: relative; 
+    left: 0%; top: 50px; 
+    border:1px solid black; 
+}
+
+.yellow1
+{
+	width: 95px; 
+	height: 45px; 
+	background-color: yellow; 
+	border-style: none; 
+    padding:3px;
+    position: relative; 
+    left: 100px; 
+    top:-155px; 
+    margin-left: 5px; 
+    border:1px solid black;
+}
+
+.red1
+{
+	width:95px;
+	height:45px; 
+	background-color:red; 
+	border-style:none;
+    padding:3px;
+    position:relative; 
+    left:201px; 
+    top:-208px;  
+    margin-left: 10px; 
+    border:1px solid black;
+}
+
+.green1{
+	width:205px; 
+	height:146px; 
+	background-color:green;
+    border-style:none; 
+    position:relative; 
+    left:100px; 
+    top:-207px;  
+    margin-left: 5px; 
+    margin-top: 3px; 
+    border:1px solid black;
+}
+
+#container{
+	width: 315px; 
+	padding: 3px; 
+	height: 258px; 
+	border: 2px groove yellow; 
+	padding: 2px;
+}
+
+.col
+{
+	border:1px solid black; 
+	width:100px; 
+	height: 45px;
+	float: left; 
+	position: relative; 
+	left: 0%; 
+	top: 0px;
+}
+
+.col2
+{
+	margin-left: 3px; 
+	border:1px solid black; 
+	width:101px; 
+	height: 45px;
+	float: left; 
+	position: relative; 
+	left: 0%; 
+	top: 0px;
+}
+
+.center
+{	line-height: 45px; 
+	text-align: center;
+}
+
+.right
+{
+	text-align: right; 
+	line-height: 45px; 
+}
+
+.padtext{padding: 10px;}
+
+body{font-size: 15px;}

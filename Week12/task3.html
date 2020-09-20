@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	function mOver(a){
+		var a = document.getElementById(a);
+		a.innerHTML = 'Thank You';
+	}
+	function mOut(b){
+		var b = document.getElementById(b);
+		b.innerHTML = 'Mouse Over Me';
+	}
+</script>
+<div onmouseover="mOver('text');">
+	<h1 id="text">Bring Cursor Here</h1>
+</div>
+<br>
+<div onmouseout="mOut('D')">
+	<h1 id="D">
+		 Put Cursor on text.
+	</h1>
+</div>
+</body>
+</html>
